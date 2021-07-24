@@ -1,0 +1,4 @@
+font-family: "Rubik", sans-serif; - Headings h3-h6
+ font-family: "Arimo", sans-serif; H1-h2
+ font-family: "Bebas Neue", cursive; FINAL H2
+ font-family: 'Encode Sans SC', sans-serif; for slim text

@@ -1,0 +1,83 @@
+.view_project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+}
+
+.view_project_img {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.view_project_img img {
+  width: 100%;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.view_project_text {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.view_project_about {
+  width: 55%;
+}
+.view_project_about h2 {
+  margin-bottom: 20px;
+}
+.view_project_about p {
+  font-family: "Poppins", sans-serif;
+}
+
+.view_project_tech {
+  width: 35%;
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 20px 20px 20px;
+  grid-auto-flow: row;
+  grid-gap: 60px;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.view_project_tech h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.view_project_tech_img img {
+  width: 60px;
+  height: 60px;
+}
+
+/* FOR MOBILE */
+@media only screen and (max-width: 500px) {
+  .view_project {
+    padding: 20px 5px;
+  }
+  .view_project_img {
+    width: 100%;
+  }
+  .view_project_img img {
+    box-shadow: none;
+  }
+  .view_project_text {
+    flex-direction: column;
+    padding: 0px 5px;
+  }
+  .view_project_about h2 {
+    font-size: 2rem;
+  }
+  .view_project_about p {
+    font-size: 1.2rem;
+  }
+  .view_project_about {
+    width: 100%;
+  }
+  .view_project_tech {
+    width: 100%;
+  }
+}
