@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     const [posts, setPosts] = useState([]);
 
-    const dl = "https://annu-port-api.herokuapp.com//uploads/";
+    const dl = "https://annu-port-api.herokuapp.com/uploads/";
 
     useEffect(() => {
         const fetchPosts = async () => {
